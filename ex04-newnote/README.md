@@ -1,4 +1,4 @@
-```
+```mermaid
 sequenceDiagram
 browser->>server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
 Note over server: server redirect to HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
